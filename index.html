@@ -1,0 +1,93 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<body>
+     <div class="w3-container w3-display middle">
+        <img src="JDMcars.jpg" alt="" height="300px" width="1370px" class="w3-animate-top" />
+     </div>
+
+	<div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button" onclick="openBar('Home')">Home</button>
+        <button class="w3-bar-item w3-button" onclick="openBar('ProfileMe')">Profile Me</button>
+        <button class="w3-bar-item w3-button" onclick="openBar('Profile JDM')">Profile JDM</button>
+        <button class="w3-bar-item w3-button" onclick="openBar('MY FAV CARS')">MY FAV CARS</button>
+    </div>
+
+	<div id="Home" class="w3-container band w3-animate-top" style="display:none">
+		<img src="EDM_mobil.jpg" alt="" width="100%" class="w3-animate-top"/>
+	 </div>
+
+	<div id="ProfileMe" class="w3-container band w3-animate-zoom" style="display: none;">
+		<center>
+			<p>
+			<img src="lbjm.jpeg" width="300" height="350">
+			<h3> NAMA : LABIB JIZDAN MUZZAKI</h3>
+			<h3> NIM : 10123059</h3>
+			<h3> KELAS : IF-2</h3>
+			<h3> TEKNIK INFORMATIKA</h3>
+			<h3> UNIVERSITAS KOMPUTER INDONESIA</h3>
+			</p>
+	</div>
+
+	<div id="Profile JDM" class="w3-container band w3-animate-zoom" style="display: none;">
+		<center>
+			<p>
+			<img src="EDM_mobil.jpg" alt="" height="400px" width="600px" class="w3-animate-zoom">
+			</p>
+			<h5>Japanese Domestic Market (JDM) merujuk pada pasar domestik di Jepang untuk kendaraan bermotor dan suku cadang yang diproduksi dan dijual di dalam negeri. Konsep JDM biasanya digunakan dalam konteks industri otomotif, tetapi dapat diterapkan pada produk lainnya juga.</h5>
+		</center>	
+	</div>
+
+	<div id="MY FAV CARS" class="w3-container band w3-animate-bottom" style="display: none;">
+		<center>
+			<p>	
+				<h2>1. GTR-R34</h2>
+				<img src="R34_GTR.jpg" alt="" height="300px" width="350px" class="w3-animate-top">
+				<h3>Nissan Skyline R34 GT-R diperkenalkan pertama kali pada tahun 1999 dan diproduksi hingga tahun 2002. Jadi, rentang produksi utama untuk model ini adalah antara tahun 1999 dan 2002. Selama periode ini, berbagai variasi dan edisi khusus dari R34 GT-R juga mungkin telah diproduksi.</h3>
+			</p>
+
+			<p>
+				<h2>2. AE86</h2>
+				<img src="AE86.jpg" alt="" height="300px" width="400px" class="w3-animate-top">
+				<h3>Toyota AE86 adalah mobil sport kompak yang terkenal dan dihormati, terutama dalam dunia otomotif dan budaya balap Jepang.Meskipun AE86 awalnya diproduksi pada tahun 1980-an, mobil ini tetap menjadi ikon dalam dunia otomotif, dan banyak penggemar yang masih menghargai nilai historis dan karakteristik mengemudinya yang unik.</h3>
+			</p>
+
+			<p>
+				<h2>3.RX7-FC</h2>
+				<img src="RX_7FC.jpg" alt="" height="300px" width="400px" class="w3-animate-top">
+				<h3>RX-7 FC, terutama dalam varian Turbo II, masih menjadi favorit di kalangan penggemar mobil sport dan kolektor karena desain yang ikonik, performa yang solid, dan warisan balap yang kuat.dan RX7-FC diproduksi dari tahun 1985 hingga 1991</h3>
+			</p>
+
+			<p>
+				<h2>4.RX7-FD</h2>
+				<img src="RX_7.jpg" alt="" height="300px" width="400px" class="w3-animate-top">
+				<h3>RX-7 FD tetap menjadi salah satu ikon mobil sport Jepang yang paling diingat, dan nilai koleksinya terus meningkat seiring berjalannya waktu.dan RX7-FD diproduksi antara tahun 1992 dan 2002.</h3>
+			</p>
+
+			<p>
+				<h2>5.NISSAN SILVIA-S15</h2>
+				<img src="SILVIA_S15.jpg" alt="" height="300px" width="400px" class="w3-animate-top">
+				<h3>Silvia S15 tetap menjadi salah satu model yang sangat diingat di dunia otomotif, dan popularitasnya terus bertahan di kalangan penggemar mobil sport dan kolektor.Nissan Silvia S15 diproduksi antara tahun 1999 dan 2002.</h3>
+			</p>
+
+			<p>
+				<h2>6. HONDA NSX</h2>
+				<img src="NSX.jpg" alt="" height="300px" width="400px" class="w3-animate-top">
+				<h3>Acura NSX, baik generasi pertama maupun generasi kedua, terus dihormati di kalangan penggemar mobil sport dan dikenang sebagai salah satu inovator di dunia otomotif.Generasi pertama Acura NSX (juga dikenal sebagai Honda NSX) diproduksi dari tahun 1990 hingga 2005.
+Generasi kedua NSX diperkenalkan dan diproduksi mulai tahun 2016.</h3>
+			</p>
+		</center>
+	</div>
+
+	 <script>
+		function openBar(Home) {
+		   var i;
+		   var x = document.getElementsByClassName("band");
+		   for (i = 0; i < x.length; i++) {
+		   x[i].style.display = "none";
+		   }
+		document.getElementById(Home).style.display = "block";
+		  }
+   </script>
+</body>
+</html> 
